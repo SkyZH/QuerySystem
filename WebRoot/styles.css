@@ -1,0 +1,119 @@
+.QueryDiv
+{
+    text-align: center;
+    width: 840px;
+}
+
+.Center
+{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.QueryTable
+{
+    background-color: #FFFFFF;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.QueryTable td
+{
+    background-color: #FFFFFF;
+    width: 120px;
+    text-align: center;
+    background-color: #FFFFFF;
+    transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+}
+
+.QueryTable tr
+{
+    transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+    color: #000000;
+}
+
+.QueryTable tr:hover
+{
+    transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+    color: #66CCFF;
+}
+
+.QueryTable td select
+{
+    width: 120px;
+    height: 30px;
+}
+
+.QueryTable td select:hover
+{
+    background-color: #FAFAFA;
+}
+
+.TableTitleBar
+{
+    background-color: #FFFFFF;
+    width: 850px;
+    position: fixed;
+    z-index: 888;
+    -webkit-box-shadow:
+     0 -1px 0 #e9e9e9,0 1px 0 rgba(0,0,0,0.05),
+     -1px 0 0 #e9e9e9,0 1px 0 rgba(0,0,0,0.05),
+     1px 0 0 #e9e9e9,0 1px 0 rgba(0,0,0,0.05);
+    -moz-box-shadow: 
+     0 -1px 0 #e9e9e9,0 1px 0 rgba(0,0,0,0.05),
+     -1px 0 0 #e9e9e9,0 1px 0 rgba(0,0,0,0.05),
+     1px 0 0 #e9e9e9,0 1px 0 rgba(0,0,0,0.05);
+    box-shadow: 
+     0 -1px 0 #e9e9e9,0 1px 0 rgba(0,0,0,0.05),
+     -1px 0 0 #e9e9e9,0 1px 0 rgba(0,0,0,0.05),
+     1px 0 0 #e9e9e9,0 1px 0 rgba(0,0,0,0.05);
+
+    display: block;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border-bottom: 1px solid #bebebe;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    text-align: center;
+}
+.TableTitleRow
+{
+    background-color: #FFFFFF;
+    position: relative;
+    width:850px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.QueryTable
+{
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.TableTitle
+{
+    font-weight: bold;
+}
+
+.QueryTableTitleLight
+{
+    color: #999999;
+}
+
+.PraseTable
+{
+}
+
+.OptionSelectStyle
+{
+    color: #CCCCCC;
+}
