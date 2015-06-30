@@ -1,0 +1,30 @@
+.Center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.QueryTableTitleLight {
+    color: #999999;
+}
+.PraseTable {}
+.OptionSelectStyle {
+    color: #CCCCCC;
+}
+#QueryData {
+    width: 100%;
+}
+
+#QueryData td {
+    width: 80px;
+}
+
+#PageDiv
+{
+    width: 100%;
+    text-align: center;
+}
+
+.PageControlDiv
+{
+    display: inline-block;
+    vertical-align: middle;
+}
