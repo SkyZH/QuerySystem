@@ -77,7 +77,7 @@ function onQuerySuccess() {
     __ProductStart = Page * 20 + 1;
     __ProductEnd = __ProductStart + 19;
     if (__ProductEnd > MaxProduct) __ProductEnd = MaxProduct;
-    if(__ProductStart == __ProductEnd) $("#PageControl").html("<h4>" + __ProductStart.toString() + " of " + MaxProduct.toString() + "</h4>");
+    if (__ProductStart == __ProductEnd) $("#PageControl").html("<h4>" + __ProductStart.toString() + " of " + MaxProduct.toString() + "</h4>");
     else $("#PageControl").html("<h4>" + __ProductStart.toString() + "~" + __ProductEnd.toString() + " of " + MaxProduct.toString() + "</h4>");
 }
 

@@ -12,19 +12,14 @@
 #QueryData {
     width: 100%;
 }
-
 #QueryData td {
     width: 80px;
 }
-
-#PageDiv
-{
+#PageDiv {
     width: 100%;
     text-align: center;
 }
-
-.PageControlDiv
-{
+.PageControlDiv {
     display: inline-block;
     vertical-align: middle;
 }
